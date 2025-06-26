@@ -30,6 +30,10 @@ output Time=0 R3= 0 Time=15 R3= 0 Time=25 R3= 0 Time=35 R3= 0 Time=45 R3= 30 // 
 
 
 
+output Time=0 R3= 0 Time=15 R3= 0 Time=25 R3= 0 Time=35 R3= 0 Time=45 R3= 30 // 10 (R1) + 20 (R2) Output R3 = 30 after pipeline delay — result appears around the 5th cycle due to 5-stage pipeline latency.
+
+
+
 Holds the address of the current instruction. Updates to point to the next instruction after each clock cycle. Instruction Memory:
 
 Stores the instructions for execution. Register File:
